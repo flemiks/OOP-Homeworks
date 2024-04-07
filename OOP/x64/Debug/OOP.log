@@ -1,2 +1,4 @@
-﻿  OOP6.cpp
+﻿  OOP7.cpp
+E:\Step Lessonns\C++\17\OOP\OOP\OOP7.cpp(96): warning C4172: returning address of local variable or temporary: temp
+E:\Step Lessonns\C++\17\OOP\OOP\OOP7.cpp(105): warning C4172: returning address of local variable or temporary: temp
   OOP.vcxproj -> E:\Step Lessonns\C++\17\OOP\x64\Debug\OOP.exe

@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <fstream>
 #include <sstream>
 #include <vector>
@@ -133,4 +133,4 @@ int main()
 	Flat flat3(35, 60000);
 	cout << boolalpha << (flat1 > flat3) << endl;
 	return 0;
-}
+}*/

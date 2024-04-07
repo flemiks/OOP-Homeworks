@@ -55,7 +55,10 @@ public:
 	}
 
 	friend Date operator+(const Date& date, int days);
+	friend Date operator+(int daysToAdd, const Date& date);
 	friend int operator-(const Date& date1, const Date& date2);
+
+
 };
 
 Date operator+(const Date& date, int daysToAdd) {
@@ -74,6 +77,10 @@ Date operator+(const Date& date, int daysToAdd) {
 	}
 
 	return Date(day, month, year);
+}
+
+Date operator+(int daysToAdd, const Date& date) {
+	return date + daysToAdd;
 }
 
 int operator-(const Date& date1, const Date& date2) {
